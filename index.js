@@ -1,7 +1,8 @@
-$(".prog_man").click(function(){   
-        $(".expand-pm").slideToggle();
+$(".experience-circle").click(function(){
+        var clicked = $(this).attr("id");
+        $(".expand-"+ clicked).slideToggle();
 
-        if (!$(".prog_man").hasClass('experience-circle-clicked')) {
+        if (!$(".experience-circle").hasClass('experience-circle-clicked')) {
                 $(this).addClass("experience-circle-clicked");
         }
         else {
