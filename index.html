@@ -7,7 +7,7 @@
 <!-- bootstrap styling -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
 <!-- CSS stylesheet -->
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/styles.css">
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=BenchNine&family=Lato:wght@300;400;900&family=Permanent+Marker&display=swap" rel="stylesheet"> 
 <!-- font awesome -->
@@ -78,13 +78,13 @@
             </div>
                 <div class="row">
                     <div class="circle col-lg-3">
-                        <span class="experience-circle prog_man">
+                        <span id="pm" class="experience-circle">
                             <i class="fas fa-tasks fa-5x experience-icon"></i>
                             <p>Program Manager</p>
                         </span>
                     </div>    
                     <div class="circle col-lg-3">
-                        <span class="experience-circle">
+                        <span id = "marketer" class="experience-circle">
                             <i class="fas fa-funnel-dollar fa-5x experience-icon"></i>
                             <p>Marketer</p>
                         </span>
@@ -104,7 +104,7 @@
                 </div>
                 
                 <!-- Program Manager Details Hidden Until Clicked -->
-                <div class="expand-pm">
+                <div class="expand-pm xp">
                 <div class="section-title">
                     <h1>Program Manager</h1>
                 </div>
@@ -202,7 +202,7 @@
                         <h4 class="card-title"><strong>STEM-NM Manager</strong></h4>
                         <p class="card-text"><a href="http://www.explora.us">Explora Science Museum and Children's Center</a> | Albuquerque, NM | 2018-2020
                         <br>
-                        <ul class="explora-duties">
+                        <ul class="job-duties">
                             <li>Managed a collective impact initiative of community partners working towards a goal of high quality and equitable science, technology, engineering, and math education.</li>
                             <li>Activated and engaged community businesses, organizations and resources via communication - social marketing, newsletters, and blog posts - and convenings - leadership group and community stakeholder meetings.</li>
                             <li>Planned, coordinated and produced the NM Science Fiesta, a science festival in Albuquerque put on by participating organizations from across New Mexico.</li>
@@ -216,7 +216,7 @@
                         <h4 class="card-title"><strong>STEM Program Manager</strong></h4>
                         <p class="card-text"><a href="http://www.gsctx.org">Girl Scouts of Central Texas</a> | Austin, TX | 2014-2016
                         <br>
-                        <ul class="explora-duties">
+                        <ul class="job-duties">
                             <li>Cultivated a team of employees and volunteers to deliver Science, Technology, Engineering, and Math programs serve over 3,000 Girl Scouts in 47 counties.</li>
                             <li>Forged new and maintained existing relationships with local businesses and organizations to acquire funding and host events.</li>
                         </ul>
@@ -227,6 +227,179 @@
             </div>
 
             <!-- Marketer Details Hidden Until Clicked -->
+            <div class="expand-marketer xp">
+                <div class="section-title">
+                    <h1>Marketer</h1>
+                    <h3>A dynamic balance of creativity, logic, and leadership</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                      <div class="card detail-card-marketing">
+                        <div class="card-body">
+                          <h2 class="card-title">I Create</h2>
+                          <p class="card-text">
+                              <ul>
+                                  <li>Leads</li>
+                                  <li>Relationships</li>
+                                  <li>Websites</li>
+                                  <li>Social Media Campaigns</li>
+                                  <li>Content</li>
+                              </ul>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card detail-card-marketing">
+                            <div class="card-body">
+                                <h2 class="card-title">I Analyze</h2>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Progress Towards Goals</li>
+                                        <li>Audience Behaviours</li>
+                                        <li>The Competition</li>
+                                        <li>Campaign Performance</li>
+                                        <li>Market Trends</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body detail-card-marketing">
+                                <h2 class="card-title">I Lead By</h2>
+                                <p class="card-text"> 
+                                    <ul>
+                                        <li>Thinking Critically</li>
+                                        <li>Communicating Well</li>
+                                        <li>Thriving on a Team</li>
+                                        <li>Working Independently</li>
+                                        <li>Being Dependable</li>
+                                    </ul>
+                                </p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="progman-skills">
+                    <h1 class="section-title">Skills</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card text-left">
+                            <div class="card-body skills-card">
+                                <h2 class="card-title text-center">Social Media</h2>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Hootsuite</li>
+                                        <li>Twitter</li>
+                                        <li>Facebook</li>
+                                        <li>Instagram</li>
+                                        <li>Snap Chat</li>
+                                        <li>YouTube</li>
+                                        <li>LinkedIn</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card text-left">
+                            <div class="card-body skills-card">
+                                <h2 class="card-title text-center">Web Development</h2>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-sm"><strong>Front End</strong>
+                                            <ul>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                                <li>Javascript</li>
+                                                <li>JQuery</li>
+                                                <li>Bootstrap</li>
+                                                <li>Word Press</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm"><strong>Back End</strong>
+                                            <ul>
+                                                <li>Node.js</li>
+                                                <li>Epress.js</li>
+                                                <li>React.js</li>
+                                                <li>SQL</li>
+                                                <li>MongoDB</li>
+                                                <li>Mongoose</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card text-left">
+                            <div class="card-body skills-card">
+                                <h2 class="card-title text-center">Content Creation</h2>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Website Copy</li>
+                                        <li>Blog Posts</li>
+                                        <li>Email Newsletters</li>
+                                        <li>Social Media Posts</li>
+                                        <li>Graphic Design</li>
+                                        
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div>
+                    <h1 class="section-title">Experience</h1>
+                </div>
+                <div class="card job-card text-left">
+                    <div class="card-body experience-card">
+                        <h4 class="card-title"><strong>STEM-NM Manager</strong></h4>
+                        <p class="card-text"><a href="http://www.explora.us">Explora Science Museum and Children's Center</a> | Albuquerque, NM | 2018-2020
+                        <br>
+                        <ul class="job-duties">
+                            <li>Directed a collective impact initiative of community partners working towards a goal of high quality and equitable science, technology, engineering, and math education.</li>
+                            <li>Activated and engaged community businesses, organizations and resources via communication - social marketing, newsletters, and blog posts - and convenings - leadership group and community stakeholder meetings.</li>
+                            <li>Planned, coordinated and produced the NM Science Fiesta, a science festival in Albuquerque put on by participating organizations from across New Mexico.</li>
+                        </ul>
+                        </p>
+                        <a href="http://www.explora.us"><img class="explora-img" src="images/Explora_Color.png" alt="explora"></a>
+                    </div>
+                </div>
+                <div class="card job-card text-left">
+                    <div class="card-body experience-card">
+                        <h4 class="card-title"><strong>Founder | Director of Marketing & Sales</strong></h4>
+                        <p class="card-text">5th Dimension Games, Inc. | Austin, TX | 2014-2017
+                        <br>
+                        <ul class="job-duties">
+                            <li>Directed a collective impact initiative of community partners working towards a goal of high quality and equitable science, technology, engineering, and math education.</li>
+                            <li>Activated and engaged community businesses, organizations and resources via communication - social marketing, newsletters, and blog posts - and convenings - leadership group and community stakeholder meetings.</li>
+                            <li>Planned, coordinated and produced the NM Science Fiesta, a science festival in Albuquerque put on by participating organizations from across New Mexico.</li>
+                        </ul>
+                        </p>
+                        <a href="http://www.explora.us"><img class="explora-img" src="images/Explora_Color.png" alt="explora"></a>
+                    </div>
+                </div>
+                <div class="card job-card text-left">
+                    <div class="card-body experience-card">
+                        <h4 class="card-title"><strong>STEM Program Manager</strong></h4>
+                        <p class="card-text"><a href="http://www.gsctx.org">Girl Scouts of Central Texas</a> | Austin, TX | 2014-2016
+                        <br>
+                        <ul class="job-duties">
+                            <li>Cultivated a team of employees and volunteers to deliver Science, Technology, Engineering, and Math programs serve over 3,000 Girl Scouts in 47 counties.</li>
+                            <li>Forged new and maintained existing relationships with local businesses and organizations to acquire funding and host events.</li>
+                        </ul>
+                        </p>
+                        <a href="http://www.gsctx.org"><img class="gsctx-img" src="images/gsctxservicemark.png" alt="gsctx-logo"></a>
+                    </div>
+                </div>
+            </div>
+
 
             <!-- Second Row of Experience Circles -->
                 <div class="row">
@@ -283,7 +456,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
 <!-- javascript -->
-    <script src="index.js" charset="utf-8"></script>
+    <script src="js/index.js" charset="utf-8"></script>
 <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>   
 </body>

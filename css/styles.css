@@ -1,0 +1,227 @@
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+}
+
+.section-title {
+    font-size: 2rem;
+}
+
+.card {
+    background-color: #f1f1f1;
+}
+
+.card-text {
+    font-size: 1.25rem;
+}
+
+.container-fluid {
+    padding: 2% 10% 3%;
+  }
+
+.section-title {
+    text-align: left;
+    padding: 3% 0 3% 3%;
+}
+
+/* Intro Section */
+#Intro {
+    background-color: #40a798;   
+}
+
+/* Nav Bar */
+.navbar {
+    padding: 0 5% 4rem;
+}
+
+.navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+/* Profile Section */
+
+.profile {
+    padding-bottom: 5%;
+}
+
+.profile-pic {
+    border: 7px;
+    border-style: solid;
+    width: 50%;
+    border-radius: 10%;
+    border-color: #f5e1da; 
+}
+
+.modern {
+    font-family: 'BenchNine', sans-serif;
+    padding-bottom: 3%;
+}
+/* About Section */
+
+#about {
+    background-color: #f1f1f1;
+}
+
+.quote-attribute {
+    text-align: right;
+}
+
+.churchill {
+    font-size: .75rem;
+}
+
+.about-blurb {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Consulting Section */
+#consulting {
+    background-color: #f5e1da;
+}
+
+/* Experience Section */
+#experience {
+    background-color: #f1f1f1;
+}
+
+#experience-menu {
+    position: relative;
+    
+}
+
+.row {
+    padding-bottom: 2%;
+    position: relative;
+}
+
+.circle {
+    padding: 2% 4%;
+}
+
+.experience-circle {
+    height: 240px;
+    width: 240px;
+    background-color: #f5e1da;
+    border-radius: 50%;
+    border: solid;
+    border-color: black;
+    display: inline-block;
+
+}
+
+.experience-circle-clicked {
+    transform: scale(1.25);
+    background-color: #f5e1da75;
+}
+
+.experience-circle:hover {
+    transform: scale(1.25);
+    background-color: #f5e1da75;
+}
+
+.experience-icon {
+    display: block;
+    margin: 25% auto 0;
+    width: 50%;
+    padding-bottom: 1%;
+}
+
+.experience-circle-expand {
+    background-color: #f1f1f1;
+}
+
+
+
+.fa-arrow-left {
+    display: inline-block;
+    position: relative;
+    top: 30%;
+}
+
+.back {
+    display: inline-block;
+    position: relative;
+    top: 30%;
+}
+
+
+
+/* Program Management Content */
+
+.expand-pm {
+    display: none;
+    background-color: #f5e1da;
+    width: 100%;
+    padding: 3%;
+}
+
+.detail-card {
+    height: 13rem;
+}
+
+.progman-skills {
+    text-align: left;
+}
+
+.job-card {
+    margin: 0 0 3% 0;
+}
+
+.experience-card {
+    position: relative;
+}
+
+.explora-img {
+    width: 8%;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+}
+
+.job-duties {
+    padding-top: 1.5%;
+}
+
+.gsctx-img {
+    width: 13%;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+}
+
+/* Marketer Hidden Section */
+.expand-marketer {
+    display: none;
+    background-color: #f5e1da;
+    width: 100%;
+    padding: 3%;
+}
+
+.detail-card-marketing {
+    height: 15rem;
+}
+
